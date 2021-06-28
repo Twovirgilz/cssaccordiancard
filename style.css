@@ -1,0 +1,45 @@
+body{
+    background-image: radial-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+#header{position: absolute;}
+
+.container{
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height:812px;
+}
+
+.main{
+    background:white;
+    border-radius: 10%;
+    height:60%;
+
+}
+
+h1{
+    padding:50px;
+    text-align: center;
+}
+
+ul{
+    padding: 0 0 50px 0;
+    font-size: 15px;
+    
+}
+
+img{
+}
+
+.list{
+    padding:25px;
+}
+
+li{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    list-style: none;
+}
+
